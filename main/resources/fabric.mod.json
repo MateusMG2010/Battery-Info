@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "batteryinfo",
+  "version": "${version}",
+  "name": "Battery Info",
+  "description": "A mod that show your battery level inside Minecraft.",
+  "authors": [
+    "@MateusMG2010"
+  ],
+  "contact": {
+    "Discord": "@MateusMG2010"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/batteryinfo/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.mgstudios.batteryinfo.client.BatteryInfoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
